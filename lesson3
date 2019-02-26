@@ -1,1 +1,51 @@
-
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>домашнее задание номер 7</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<!-- Верстка макета используя Flexbox CSS -->
+<body>    
+    
+    <div class="container">
+            <h1>Инструменты для макетирования</h1>  
+        <div class="block">
+            <div class="row">
+                <img src="img/cuter_18mm.jpg" alt="img">
+                    <p class="name">Резак 18 мм</p>
+                    <p class="price">от 500 руб.</p>
+                    <button>
+                        <p class="buy">купить</p>
+                    </button>
+            </div>
+            <div class="row">
+                <img src="img/cuter_9mm.jpg" alt="img">
+                    <p class="name">Реказ 9 мм</p>
+                    <p class="price">от 100 руб.</p>
+                    <button>
+                        <p class="buy">купить</p>
+                    </button>
+            </div>
+            <div class="row">
+                <img src="img/pad.jpg" alt="img">
+                    <p class="name">Коврик для резки</p>
+                    <p class="price">от 350 руб.</p>
+                    <button>
+                        <p class="buy">купить</p>
+                    </button>
+            </div>
+            <div class="row">
+                <img src="img/ruler.jpg" alt="img">
+                    <p class="name">Линейка</p>
+                    <p class="price">от 400 руб.</p>
+                    <button>
+                        <p class="buy">купить</p>
+                    </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
