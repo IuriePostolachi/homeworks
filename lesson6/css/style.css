@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.box {
+    position: absolute;
+    float: center;    
+    background-color: #ffffff;
+    border: 0.7px solid #d7d7d7; 
+    position:absolute;
+    left:50%;
+    margin-left:-505px;
+    top:50%;
+    margin-top:-251.5px;
+    width:1010px;
+    height:503px;
+}
+
+.img {    
+    margin-top: 64px;
+    margin-left: 47px;
+}
+
+.product_name {    
+    width: 190px;
+    height: 22px;
+    font-weight: 700;
+    font-size: 22.5px;
+    font-family: Arial;
+    color: #2f2f2f;
+    margin-left: 521px;
+    margin-top: -366px;
+}
+
+.description {
+    width: 407px;
+    height: 86px;
+    color: #2f2f2f;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Arial;
+    margin-top: 31px;
+    margin-left: 521px;
+    margin-bottom: 18px;
+}
+
+.price {
+    width: 35px;
+    height: 14px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: arial;
+    color: #2f2f2f;
+    margin-left: 522px;
+    margin-bottom: 18px;
+}
+
+.price_number {
+    width: 177px;
+    height: 48px;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: arial;
+    color: #2f2f2f;
+    margin-left: 522px;
+}
+
+.button {
+    width: 252px;
+    height: 50px;
+    background-color: #ec744a;
+    margin-left: 526px;
+    margin-top: 36px;
+}
+
+button {
+    background-color: #ec744a;
+}
+
+.text_button {
+    width: 175px;
+    height: 22px;
+    font-size: 18.75px;
+    font-weight: 500;
+    font-family: arial;
+    color: #ffffff;
+    margin-left: 38px;
+    margin-top: 16px;
+}
