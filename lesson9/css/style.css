@@ -1,0 +1,36 @@
+.header {
+  text-align: center;
+}
+.container {
+  text-align: center;
+}
+.row {
+  height: 180px; 
+  width: 1056px;
+  text-align: center;
+}
+.box {
+  width: 100px;
+  height: 90px;
+  padding: 10px;
+  margin: auto;
+}
+.col-12, 
+.col-sm-12, 
+.col-md-6, 
+.col-lg-4 {
+  margin-bottom: 25px;
+}
+h1 {
+  font-size: 24px;
+  font-family: tahoma;
+  text-transform: uppercase;
+}
+h3 {
+  font-size: 16px;
+  font-family: tahoma;
+  height: 40px;
+  width: 125px;
+  margin: auto;
+  padding-top: 15px;
+}
