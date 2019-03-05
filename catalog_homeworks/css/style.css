@@ -1,113 +1,143 @@
 header {
-  padding-top: 40px;
+    padding-top: 40px;
 }
+
 .container {
-  max-width: 660px;
-  width: 94%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  font-family: arial;
+    max-width: 660px;
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: arial;
 }
+
 .container-title {
-  height: 190px;
-  box-shadow: 0 6px 20px rgba(19, 3, 243, 0.671);
+    height: 190px;
+    box-shadow: 0 6px 20px rgba(19, 3, 243, 0.671);
 }
+
 .title {
-  font-size: 55px;
-  padding-top: 10px;
-  color: #330099; 
+    font-size: 55px;
+    padding-top: 10px;
+    color: #330099;
 }
+
 .student,
-.course-type   {
-  font-size: 18px;
-  color: #330099; 
+.course-type {
+    font-size: 18px;
+    color: #330099;
 }
+
 .student-name {
-  font-size: 30px;
-  font-weight: 750;
-  text-transform: uppercase;
-  color: black;
-  padding-top: 10px;
-  padding-bottom: 5px;
-  
+    font-size: 30px;
+    font-weight: 750;
+    text-transform: uppercase;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
+
 .course {
-  font-size: 25px;
-  color: #330099; 
-  padding-bottom: 10px;
-  font-weight: 700;
+    font-size: 25px;
+    color: #330099;
+    padding-bottom: 10px;
+    font-weight: 700;
 }
+
 .first-week {
-  margin-top: auto;
+    margin-top: auto;
 }
-.week  {
-  height: 530px;
-  display: flex;
-  align-content: space-between; 
+
+.week {
+    height: 530px;
+    display: flex;
+    align-content: space-between;
 }
+
+.first-week {
+    height: 840px;
+    display: flex;
+    align-content: space-between;
+}
+
 .img-week {
-  width: 195px;
+    width: 195px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
+
 img {
-  max-width: 100%;
-  max-height: 105%;  
+    max-width: 100%;
+    max-height: 105%;
 }
+
 .lesson-row {
-  height: 450px;
-  width: 460px;
-  margin-top: 30px;
-  flex-direction: column;
-  display: flex;  
-  align-content: space-between;
+    height: 450px;
+    width: 460px;
+    margin-top: 30px;
+    flex-direction: column;
+    display: flex;
+    align-content: space-between;
 }
-.lesson {  
-  margin-bottom: 35px;  
+
+.lesson-row__5 {
+    margin-top: 85px;
+}
+
+.lesson {
+    margin-bottom: 35px;
 }
 
 .lesson-btn {
-  width: 300px;
-  height: 60px;
-  text-decoration: none;
-  box-shadow: 0 6px 12px rgba(19, 3, 243, 0.671);
-  border-radius: 25px;
-  padding: 20px 30px;
-  color: #fffffffd;
-  background-color: #180488;
+    width: 300px;
+    height: 60px;
+    text-decoration: none;
+    box-shadow: 0 6px 12px rgba(19, 3, 243, 0.671);
+    border-radius: 25px;
+    padding: 20px 30px;
+    color: #fffffffd;
+    background-color: #180488;
 }
+
 .lesson-btn-fail {
-  width: 300px;
-  height: 60px;
-  text-decoration: line-through;
-  box-shadow: 0 6px 12px rgba(19, 3, 243, 0.671);
-  border-radius: 25px;
-  padding: 20px 30px;
-  color: #fffffffd;
-  background-color: #882304;
+    width: 300px;
+    height: 60px;
+    text-decoration: line-through;
+    box-shadow: 0 6px 12px rgba(19, 3, 243, 0.671);
+    border-radius: 25px;
+    padding: 20px 30px;
+    color: #fffffffd;
+    background-color: #882304;
 }
+
 .img-circle {
-  padding-right: 10px;
-  margin-right: 5px;
+    padding-right: 10px;
+    margin-right: 5px;
 }
+
 hr {
-  box-shadow: 0 6px 12px rgba(19, 3, 243, 0.671);
+    box-shadow: 0 6px 12px rgba(19, 3, 243, 0.671);
 }
+
 .container-back {
-  max-width: 660px;
-  width: 94%;
-  margin-left: auto;
-  margin-right: auto;
+    max-width: 660px;
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 .back {
-  position: fixed;  
-  bottom: 20px;
-  right: 74%;
+    position: fixed;
+    bottom: 20px;
+    right: 74%;
 }
+
 .btn-back {
-  background-color: transparent;
-  border: none;
+    background-color: transparent;
+    border: none;
 }
+
 .link {
-  text-decoration: none;
-  color: aliceblue;
+    text-decoration: none;
+    color: aliceblue;
 }
