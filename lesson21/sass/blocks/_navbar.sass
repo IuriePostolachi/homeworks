@@ -1,0 +1,46 @@
+.navbar
+  padding-bottom: 5px
+  &-block
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &__info
+    display: flex
+    align-items: center
+    text-align: right
+    line-height: 0.9
+    margin-right: -14px
+    margin-top: -6px
+  &__address
+    display: flex
+    flex-direction: column
+    font-size: 13px
+    margin-right: 2px
+  &__button
+    margin-right: 22px
+    margin-left: 28px
+    padding: 17px 30px
+    +bold
+    font-size: 13px
+  &__phone
+    display: inline-block
+    color: $text-color
+    font-size: 20px
+    text-decoration: none
+    margin-top: 10px
+    +bold
+
+@media (max-width: 768px)
+  .navbar
+    &__contacts
+      display: none
+    &__button
+      font-size: 12px
+      padding: 15px 26px
+    &__logo
+      width: 90px
+
+@media (max-width: 322px)
+  .container
+    max-width: 260px
+    width: 95%
