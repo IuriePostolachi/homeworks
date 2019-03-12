@@ -1,0 +1,82 @@
+.hero
+  padding: 50px 0
+  background-color: $secondary
+  &-block
+    display: flex
+    justify-content: space-between
+  &-text
+    flex-basis: 45%
+    &__title
+      font-size: 41px
+      line-height: 55px
+      margin-bottom: 38px
+      +bold
+    &__subtitle
+      display: inline-block
+      font-size: 20px
+      margin-bottom: 67px
+      margin-left: 3px
+      +bold
+  &-list
+    margin: 3px 0px 0px 3px
+    padding: 0
+    &__item
+      display: flex
+      align-items: center
+      margin-bottom: 30px
+      &:last-child
+        margin-bottom: 0
+    &__image
+      width: 40px
+      height: 40px
+      border: 2px solid $main-color
+      display: flex
+      align-items: center
+      justify-content: center
+      border-radius: 50%
+      margin-right: 30px
+    &__text
+      max-width: 270px
+      width: 65%
+      font-size: 14px 
+  &-image
+    margin:auto    
+    &__top-main
+      max-width: 106%
+      
+@media (max-width: 1200px)
+  .hero
+    &-block
+      flex-direction: column
+    &-image
+      margin: auto
+    &-list
+      margin-bottom: 44px
+    &-text
+      padding-right: 0
+      display: flex
+      flex-direction: column
+      align-items: center
+      &__title
+        text-align: center
+
+@media (max-width: 768px)
+  .hero
+    &-text
+      &__title
+        font-size: 21px
+        line-height: 1.4
+        margin-bottom: 15px
+      &__subtitle
+        font-size: 16px
+        margin-bottom: 28px
+    &-list
+      &__text
+        font-size: 12px
+
+@media (max-width: 567px)
+  .hero
+    &-text
+      display: block
+      &__title
+        text-align: left
